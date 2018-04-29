@@ -36,7 +36,8 @@ CREATE TABLE ws_Produto(
 );
 
 CREATE TABLE ws_Pedido(
-	id int NOT NULL PRIMARY KEY,
+	id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	id_pedido int NOT NULL,
 	forma_pagamento VARCHAR(255),
 	data VARCHAR(255),
 	id_status int NOT NULL,
