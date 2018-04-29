@@ -28,7 +28,7 @@ CREATE TABLE ws_Produto(
 	id int NOT NULL PRIMARY KEY,
 	nome VARCHAR(255),
 	preco VARCHAR(255),
-	decricao VARCHAR(255),
+	descricao VARCHAR(255),
 	peso VARCHAR(255),
 	comprimento VARCHAR(255),
 	altura VARCHAR(255),
