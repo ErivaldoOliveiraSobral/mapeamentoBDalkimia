@@ -1,6 +1,3 @@
-CREATE DATABASE bdalkimia;
-USE bdalkimia;
-
 CREATE TABLE ws_Usuario(
 	id int NOT NULL PRIMARY KEY,
 	nome VARCHAR(255),
